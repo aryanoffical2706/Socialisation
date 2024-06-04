@@ -17,7 +17,7 @@ const post = require("./route/Post");
 const user = require('./route/User');
 
 const corsOptions = {
-    origin: ["http://localhost:3000","https://networking-r5gi.vercel.app", "https://aryan-frontend-app.vercel.app"], // Specify your frontend URL
+    origin: ["https://socialisation.vercel.app","https://networking-r5gi.vercel.app", "https://aryan-frontend-app.vercel.app"], // Specify your frontend URL
     credentials: true,
 };
 
