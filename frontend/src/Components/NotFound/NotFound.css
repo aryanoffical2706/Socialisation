@@ -1,0 +1,126 @@
+.not-found-container {
+    text-align: center;
+    padding: 150px;
+  }
+  
+  h1 {
+    font-size: 4em;
+    margin-bottom: 0.2em;
+  }
+  
+  p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .boat {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: #c99a6c;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+  
+  .person {
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #f5a623;
+    border-radius: 50%;
+  }
+  
+  .sharks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .shark {
+    width: 30px;
+    height: 50px;
+    background-color: #555;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  }
+  .home-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+  @media screen and (max-width: 600px){
+    .not-found-container {
+        text-align: center;
+        padding: 50px;
+      }
+      
+      h1 {
+        font-size: 4em;
+        margin-bottom: 0.2em;
+      }
+      
+      p {
+        font-size: 1.5em;
+        margin: 0.5em 0;
+      }
+      
+      .image-container {
+        position: relative;
+        width: 100%;
+        padding-left: 10px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      
+      .boat {
+        position: relative;
+        width: 100px;
+        height: 30px;
+        background-color: #c99a6c;
+        border-radius: 15px;
+        margin: 0 auto;
+      }
+      
+      .person {
+        position: absolute;
+        top: -20px;
+        left: 30px;
+        width: 40px;
+        height: 40px;
+        background-color: #f5a623;
+        border-radius: 50%;
+      }
+      
+      .sharks {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      
+      .shark {
+        width: 30px;
+        height: 50px;
+        background-color: #555;
+        clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+      }
+      
+  }
